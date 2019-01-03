@@ -457,7 +457,6 @@
       'clang_warning_flags': [
         '-Wsign-compare',
         # TODO(thakis): https://crbug.com/604888
-        '-Wno-undefined-var-template',
         # TODO(yangguo): issue 5258
         '-Wno-nonportable-include-path',
       ],
